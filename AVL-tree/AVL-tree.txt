@@ -1,0 +1,29 @@
+To solve this challenge, you need to implement functions to compute the following (among others): height of a subtree (a node), height factor of a node (so your program can check if the balance is violated), and an insertion function that checks for nodes that become unbalanced and apply rotation(s) to restore the balance of the tree.
+
+Input Format
+
+Two lines. The first line tells how many items to be inserted into the AVL tree, and what type (one of these two: string or int). The second line lists the actual items.
+
+Constraints
+
+Items are either strings or integers.
+
+Output Format
+
+One line showing the item at the root, the height and the height factor of the root node. For this chanllege, the height of a tree with a single node is considered to be one (instead of zero).
+
+Sample Input 0
+
+5 int
+3 2 4 5 6
+Sample Output 0
+
+root=3 height=3 heightfactor=-1
+
+Sample Input 1
+
+5 string
+apple orange peach banana grape
+Sample Output 1
+
+root=orange height=3 heightfactor=1
