@@ -1,0 +1,24 @@
+Implement a function named printRange that, given the pointer to the root of a BST, a low key value, and a high key value, prints in sorted order all records whose key values fall between the two given keys (inclusive). Function printRange should visit as few nodes in the BST as possible.
+
+Here is the start code (in Java 8) for this problem.
+
+Input Format
+
+Three lines. The first line includes the number of keys to be put in the BST, and the second line includes the actual numbers. The third line includes two numbers, for low key and high key, respectively.
+
+Constraints
+
+The keys are integers.
+
+Output Format
+
+The key values that fall between the two given low and high keys, in sorted order.
+
+Sample Input 0
+
+10
+39 78 10 99 79 48 93 58 73 83
+5 98
+Sample Output 0
+
+10 39 48 58 73 78 79 83 93 
